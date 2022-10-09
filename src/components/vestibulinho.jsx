@@ -1,15 +1,13 @@
 import React from "react";
 import Card from "./card";
-
+import Arrow from '../assets/seila.svg'
 const Vest = () => {
     return (
-        <div>
+        <div className='bg-white '>
             <Card/>
             <Card/>
             <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <img src={Arrow} alt="//" />
             
         </div>
     )

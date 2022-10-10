@@ -3,7 +3,7 @@ import Panoramica from '../assets/etecpanoramica.jpg';
 const Mid = () => {
     return (
         <div style={{ backgroundImage: `url(${Panoramica})`}}>
-        <div className='text-black filter bg-fixed backdrop-blur-sm' >
+        <div className='text-black filter bg-fixed backdrop-blur-sm ' >
             
             
             <div  className='max-w-[800px] mt[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center select-none'>

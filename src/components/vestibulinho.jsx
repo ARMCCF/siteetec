@@ -1,16 +1,16 @@
 import React from "react";
-import Card from "./card";
-import Arrow from '../assets/seila.svg'
+import DS from "./cards/DS";
+import Meioambiente from "./cards/Meioambiente"
+
 const Vest = () => {
     return (
-        <div className='bg-white pt-14'>
+        <div className='bg-[#1C253A] py-10'>
 
-            <h1 className='md:text-6xl font-medium mt-3 text-center pb-10'>Nossos Cursos</h1>
-            <div className=' grid  md:grid-rows-4 lg:grid-cols-4  '>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <h1 className='md:text-6xl font-medium mt-3 text-center pb-10  '>Nossos Cursos</h1>
+            <div className=' p-10  grid  md:grid-row lg:grid-cols-4  '>
+            <DS className='transition duration-150' />
+            <Meioambiente />
+
             </div>
         </div>
     )

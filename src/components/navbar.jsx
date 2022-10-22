@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li className='p-4 text-[black]'><a href="#sobre">Sobre</a></li>
                 <li className='p-4 text-[black]'>Secretaria</li>
                 <li className='p-4 text-[black]'>Contato</li>
-                <li className='p-4 text-[black]'><a href="vestibulinhoetec.com.br" target="_blank">Vestibulinho</a></li>
+                <li className='p-4 text-[black]'><a href="https://vestibulinhoetec.com.br/" target="_blank">Vestibulinho</a></li>
                 <li className='p-4 px-6 py-4 bg-black  text-[white]'><a href="https://nsa.cps.sp.gov.br/" target="_blank">NSA</a></li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>

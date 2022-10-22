@@ -21,8 +21,8 @@ const Navbar = () => {
                 <li className='p-4 text-[black]'><a href="#sobre">Sobre</a></li>
                 <li className='p-4 text-[black]'>Secretaria</li>
                 <li className='p-4 text-[black]'>Contato</li>
-                <li className='p-4 text-[black]'><a href="https://vestibulinhoetec.com.br/" target="_blank">Vestibulinho</a></li>
-                <li className='p-4 px-6 py-4 bg-black  text-[white]'><a href="https://nsa.cps.sp.gov.br/" target="_blank">NSA</a></li>
+                <li className='p-4 text-[black]'><a href="https://vestibulinhoetec.com.br/" rel="noreferrer" target="_blank">Vestibulinho</a></li>
+                <li className='p-4 px-6 py-4 bg-black  text-[white]'><a href="https://nsa.cps.sp.gov.br/" rel="noreferrer" target="_blank">NSA</a></li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {!nav ? <AiOutlineMenu color='black' size='28'/> : <AiOutlineClose color='black' size='28'/>}
@@ -30,9 +30,9 @@ const Navbar = () => {
             <div className={!nav ? 'fixed left-[-100%] ease-out duration-300 bg-[#f8f6f6] ' : 'fixed left-0 top-0 w-[60%] ease-in-out duration-300 bg-[#f8f6f6] h-full'  }>
             <img className='w-40 mt-12' alt='Logo' src={eteclogo}/>
                 <ul className='pt-24 uppercase'>
-                <li className='p-4 text-[black]'>Home</li>
-                <li className='p-4 text-[black]'>Cursos</li>
-                <li className='p-4 text-[black]'>Sobre</li>
+                <li className='p-4 text-[black]'><a href="#home">Home</a></li>
+                <li className='p-4 text-[black]'><a href="#cursos">Cursos</a></li>
+                <li className='p-4 text-[black]'><a href="#sobre">Sobre</a></li>
                 <li className='p-4 text-[black]'>Secretaria</li>
                 <li className='p-4 text-[black]'>Contato</li>
                 <li className='p-4 text-[black]' onClick={event =>  window.location.href='https://www.vestibulinhoetec.com.br/'}>Vestibulinho</li>

@@ -2,6 +2,7 @@ import React from 'react';
 import Panoramica from '../assets/etecpanoramica.jpg';
 const Mid = () => {
     return (
+        <section id='home'>
         <div style={{ backgroundImage: `url(${Panoramica})`}}>
         <div className='text-black filter bg-fixed backdrop-blur-sm ' >
             
@@ -14,6 +15,7 @@ const Mid = () => {
             </div>
         </div>
         </div>
+        </section>
     )
 }
 

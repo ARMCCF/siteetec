@@ -2,6 +2,7 @@ import React from 'react';
 
 const Sobre = () => {
     return (
+        <section id='sobre'>
         <div  className="bg-no-repeat bg-cover" style={{ backgroundImage: `url(${"https://lh5.googleusercontent.com/p/AF1QipM2eUzi72THNOMafQiOEr0U7fpYjyu49W0oQjlG=w462-h260-k-no"})`}}>
         <div className='text-black filter bg-fixed backdrop-blur-sm ' >
             
@@ -14,6 +15,7 @@ const Sobre = () => {
             </div>
         </div>
         </div>
+        </section>
     )
 }
 

@@ -6,7 +6,7 @@ const Vest = () => {
         <section id='cursos'>
         <div className='bg-[#1C253A] '>
 
-            <h1 className='md:text-6xl font-medium mt-3 text-center pb-10 py-20 text-white shadow-ml'>Nossos Cursos</h1>
+            <h1 className='md:text-6xl font-medium mt-2 text-center pb-3 py-20 text-white shadow-ml'>Nossos Cursos</h1>
             <div className=''>
               <Cursos/>  
 

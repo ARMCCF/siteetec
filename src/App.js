@@ -1,21 +1,15 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import Mid from "./components/mid"
-import Vest from "./components/vestibulinho";
-import Sobre from "./components/sobre"
-import { ThemeProvider } from "@material-tailwind/react";
+import Home from "./Home"
+import Post from './components/post/post'
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <ThemeProvider>
-    <div className="App">
-      <Navbar/>
-      <Mid/>
-      <Vest/>
-      <Sobre/>
-    </div>
-    </ThemeProvider>
-  );
+    <Routes> 
+    <Route exact path="/" element={<Home />} />
+    <Route exact path="/post" element={<Post/>} />
+  </Routes>
+  )
 }
 
 export default App;

@@ -4,12 +4,14 @@ import Vest from "./components/vestibulinho";
 import Sobre from "./components/sobre";
 import Secretaria from "./components/secretaria";
 import { ThemeProvider } from "@material-tailwind/react";
+import setNav from "./components/navbar"
+    
 
 const Home = () => {
     return(
-        <ThemeProvider>
+        <ThemeProvider onClick={setNav}>
           <Navbar/>
-          <Mid/>
+          <Mid />
           <Vest/>
           <Sobre/>
           <Secretaria/>

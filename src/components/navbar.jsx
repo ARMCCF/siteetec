@@ -7,7 +7,8 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     
     const handleNav = () => {
-        setNav(!nav);
+       setNav(!nav);
+        
     };
     return (
         <div className='flex bg-[#f8f6f6] justify-between items-center h-22  px-4 text-white select-none sticky top-0 z-50'>
@@ -16,8 +17,7 @@ const Navbar = () => {
                 <li className='p-4 text-[black]'><a href="#home" >Home</a></li>
                 <li className='p-4 text-[black]'><a href="#cursos" >Cursos</a></li>
                 <li className='p-4 text-[black]'><a href="#sobre" >Sobre</a></li>
-                <li className='p-4 text-[black]'><a href="#secretaria">Secretaria</a></li>
-                <li className='p-4 text-[black]'><a href="#contato" >Contato</a></li>
+                <li className='p-4 text-[black]'><a href="#contato">Contato</a></li>
                 <li className='p-4 text-[black]'><a href="https://vestibulinhoetec.com.br/" rel="noreferrer" target="_blank">Vestibulinho</a></li>
                 <li className='p-4 px-6 py-4 bg-black text-[white]'><a href="https://nsa.cps.sp.gov.br/" rel="noreferrer" target="_blank">NSA</a></li>
             </ul>
@@ -30,7 +30,6 @@ const Navbar = () => {
                 <li className='p-4 text-[black]'><a href="#home">Home</a></li>
                 <li className='p-4 text-[black]'><a href="#cursos">Cursos</a></li>
                 <li className='p-4 text-[black]'><a href="#sobre">Sobre</a></li>
-                <li className='p-4 text-[black]'><a href="#secretaria">Secretaria</a></li>
                 <li className='p-4 text-[black]'><a href="#contato">Contato</a></li>
                 <li className='p-4 text-[black]' onClick={event =>  window.location.href='https://www.vestibulinhoetec.com.br/'}>Vestibulinho</li>
                 <li className='p-4 px-6 py-4 bg-black items-center text-[white]' onClick={event =>  window.location.href='https://nsa.cps.sp.gov.br/'}>NSA</li>

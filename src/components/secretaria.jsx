@@ -10,9 +10,9 @@ const Sobre = () => {
             
             <div  className='py-16 opacity-80 bg-white shadow-lg rounded-xl overflow-hidden order-5 lg:order-none max-w-[100%]  mt[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center select-none'>
             <div className='items-center'>
-            <p className='text-center md:text-3xl sm:text-6xl text-4xl md:py-6'> Telefone:(11) 3979-1061</p>
-            <p className='text-center md:text-3xl sm:text-6xl text-4xl md:py-6'> EMAIL: contato@etecpaulistano.com.br</p>
-            <p className='text-center md:text-3xl sm:text-6xl text-4xl md:py-6'> Endereço: Avenida Elísio Teixeira Leite, 3611 02810-000 São Paulo, SP</p>
+            <p className='text-center md:text-2xl sm:text-2xl text-4xl py-3'> Telefone:(11) 3979-1061</p>
+            <p className='text-center md:text-2xl sm:text-2xl text-4xl py-3'> EMAIL: contato@etecpaulistano.com.br</p>
+            <p className='text-center md:text-2xl sm:text-2xl text-4xl py-3'> Endereço: Avenida Elísio Teixeira Leite, 3611 02810-000 São Paulo, SP</p>
             
             </div>
             </div>

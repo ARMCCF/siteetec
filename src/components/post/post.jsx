@@ -13,12 +13,12 @@ const Post = () =>{
         Axios.post("https://api.cloudinary.com/v1_1/armandofilhocompany/image/upload", formData)
         .then((response)=>{
             console.log(response)}, 
-           
-            res => setImageSelected(res.data.secure_url), 
         
     )};
 
     return(
+
+        <div className='h-screen flex items-center justify-center'>
         <div className=' place-content-center block p-6 max-w-sm bg-[yellow] rounded-lg border border-gray-200 shadow-md hover:bg-yellow-200 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
         <div path='/post'>
                 <input className='py-4' type="file" name="image" 
@@ -31,7 +31,7 @@ const Post = () =>{
                 <img alt='' src={imageSelected} />
        </div>
        </div>
-
+       </div>
     )
 }
 
